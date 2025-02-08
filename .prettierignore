@@ -1,0 +1,21 @@
+# Ignore the entire "build" directory
+build
+
+# Ignore all files ending in ".lock"
+*.lock
+
+# Ignore specific files
+config/database.js
+.env
+
+# Ignore files within a directory
+node_modules/*
+public/*
+
+# Ignore specific file types within a directory
+src/**/*.test.js  # Ignore test files
+src/**/*.stories.js # Ignore storybook files
+
+# You can also use comments to explain why you are ignoring something.
+# This file is minified and shouldn't be reformatted
+dist/*.min.js
